@@ -1,0 +1,211 @@
+
+body {
+	font-family:"Comic Sans","Comic Sans MS",cursive;
+	font-style:italic;
+	width:1200;
+	overflow-x:hidden;
+}
+
+#headline {
+	position:relative;
+	left:490px;
+	width:350px;
+	z-index:100;
+	font-style:normal;
+	font-variant:small-caps;
+}
+
+#headline:first-letter {
+	font-size:200%;
+	color:#B1010C;
+}
+
+#photo {
+	display:none;
+}
+
+#backgroundimage {
+	position:relative;
+	margin-right:10px;
+	bottom:775;
+	left:50;
+	width:800px;
+	height:200px;
+}
+
+#selection {
+	position:relative;
+	top:75px;
+	left:900px;
+	width:350px;
+  	height:200px;
+	z-index:100;
+}
+
+#selection li {
+	position:relative;
+	top:-50px;
+}
+
+#info {
+	position:relative;
+	top:-200px;
+	left:20px;
+	width:550px;
+  	height:200px;
+	z-index:100;
+}
+
+#bio {
+	position:relative;
+	top:-150px;
+	left:20px;
+	width:350px;
+  	height:200px;
+	z-index:100;
+}
+
+#bio li {
+	position:relative;
+	top:-50px;
+}
+
+#skills {
+	position:relative;
+	top:-550px;
+	left:20px;
+	width:350px;
+  	height:200px;
+	z-index:100;
+}
+
+#skills li {
+	position:relative;
+	top:-50px;
+}
+
+#soft {
+	position:relative;
+	top:-45px;
+}
+
+#education {
+	position:relative;
+	top:-750px;
+	left:750px;
+	width:350px;
+  	height:200px;
+	z-index:100;
+}
+
+#education li {
+	position:relative;
+	top:-50px;
+}
+
+#experience {
+	position:relative;
+	top:-850px;
+	left:750px;
+	width:350px;
+  	height:200px;
+	z-index:100;
+}
+
+#experience li {
+	position:relative;
+	top:-50px;
+}
+
+#line1 {
+	display:none;
+}
+
+#line2 {
+	display:none;
+}
+
+#line3 {
+	display:none;
+}
+
+#line4 {
+	display:none;	
+}
+
+#line5 {
+	position:relative;
+	top:150px;
+	left:90px;
+}
+
+#line5 img {
+	width:1050px;
+  	height:150px;
+}
+
+#arrow1 {
+	position:relative;
+	top:-105px;
+	left:-30px;
+	width:28px;
+  	height:28px;
+	z-index:100;
+}
+
+#arrow2 {
+	position:relative;
+	top:-50px;
+	left:-30px;
+	width:28px;
+  	height:28px;
+	z-index:100;
+}
+
+#arrow3 {
+	position:relative;
+	top:-50px;
+	left:-30px;
+	width:28px;
+  	height:28px;
+	z-index:100;
+}
+
+#arrow4 {
+	position:relative;
+	top:-50px;
+	left:-30px;
+	width:28px;
+  	height:28px;
+	z-index:100;
+}
+
+#point1 {
+	position:relative;
+	top:-48px;
+	left:-30px;
+	width:20px;
+  	height:20px;
+	z-index:100;
+}
+
+#point2 {
+	position:relative;
+	top:-105px;
+	left:-25px;
+	width:20px;
+  	height:20px;
+	z-index:100;
+}
+
+#europass {
+	display:none;
+}
+
+#footer {
+	text-align:center;
+	margin:10px;
+	font-size:15px;
+	clear:both;
+	position:relative;
+}

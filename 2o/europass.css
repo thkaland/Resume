@@ -1,0 +1,120 @@
+
+body {
+	overflow-x:hidden;
+}
+
+#headline {
+	display:none;
+}
+
+#photo {
+	display:none;
+}
+
+
+#backgroundimage {
+	display:none;
+}
+
+#selection {
+	position:relative;
+	left:800px;
+}
+
+#info {
+	display:none;
+}
+
+#bio {
+	display:none;
+}
+
+#skills {
+	display:none;
+}
+
+#education {
+	display:none;
+}
+
+#experience {
+	display:none;
+}
+
+#line1 {
+	display:none;
+}
+
+#line2 {
+	display:none;
+}
+
+#line3 {
+	display:none;
+}
+
+#line4 {
+	display:none;
+}
+
+#line5 {
+	display:none;
+}
+
+#arrow1 {
+	display:none;
+}
+
+#arrow2 {
+	display:none;
+}
+
+#arrow3 {
+	display:none;
+}
+
+#arrow4 {
+	display:none;	
+}
+
+#point1 {
+	display:none;
+}
+
+#point2 {
+	display:none;
+}
+
+#europass {
+	border-right-style:solid;
+	border-right-color:grey;
+	border-right-width:1px;
+	border-top-style:solid;
+	border-top-color:grey;
+	border-top-width:1px;
+	width:250px;
+}
+
+#europass img {
+	position:relative;
+	top:-37px;
+}
+
+#firstcolumn {
+	list-style-type:none;
+}
+
+#secondcolumn {
+	list-style-type:none;
+	position:relative;
+	top:-297px;
+	left:350px;
+}
+
+#footer {
+	text-align:center;
+	margin:10px;
+	font-size:15px;
+	clear:both;
+	position:relative;
+}

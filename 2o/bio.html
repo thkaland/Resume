@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Bio</title>
+	<link id="cssfile" href="formal.css" rel="stylesheet" type="text/css" />
+</head>
+	<body>
+	
+		<script>
+			function makeitFormal() {
+				document.getElementById('cssfile').href = 'formal.css';
+			}
+			
+			function makeitPleasant() {
+				document.getElementById('cssfile').href = 'pleasant.css';
+			}
+			
+			function makeitEuropass() {
+				document.getElementById('cssfile').href = 'europass.css';
+			}	
+		</script>
+	
+		<h1 id="headline">Resume</h1>
+		
+		<div id="selection">
+			<h1>Format Selection</h1>
+			<img src="point.png" id="point1"/> 
+			<ul>
+				<li><input type="button" value="Formal Format" onclick="makeitFormal();"/></li>
+				<li><input type="button" value="Aesthetically Pleasant Format" onclick="makeitPleasant();" /></li>
+				<li><input type="button" value="Europass Format" onclick="makeitEuropass();" /></li>
+			</ul>
+		</div>
+	
+		<div id="info">             
+			<h1>Kalandaridis Theodosios</h1>  
+			<h2>Web Developer</h2>  
+			<img src="point.png" id="point2"/>
+			<span itemprop="addressLocality">ΤΜΥΗΤΔ</span>,   
+			<span itemprop="addressRegion">Volos</span>,   
+			<span itemprop="addressCountry">Greece</span>
+			<ul>
+				<li itemprop="email">thkaland@uth.gr, <a href="http://thkaland.wordpress.com/" itemprop="url">My Blog</a></li></small> 
+			</ul>
+		</div>
+	
+		<section id="bio">  
+			<h1>Bio</h1> 
+			<img src="arrow.png" id="arrow2"/>    
+			<ul>  
+				<li>Date of Birth: 12.2.2344</li>  
+			        <li>Place of Birth: Volos,Magnesia</li>  
+			        <li>Region: Greece</li>
+		       	</ul> 	  
+		</section>		  
+		      
+		<div id="photo">  
+		        <img src="picture.jpg" alt="Teo resume photo avatar"/>  
+		</div>
+		
+		<div id="backgroundimage">  
+		        <img src="background.jpg"/>  
+		</div>
+	
+		<div id="line1">  
+		        <img src="fadingline.jpg"/>  
+		</div>
+	
+		<div id="line2">  
+		        <img src="fadingline.jpg"/>  
+		</div>
+	
+		<div id="line3">  
+		        <img src="fadingline.jpg"/>  
+		</div>  
+		
+		<div id="line4">  
+		        <img src="fadingline.jpg"/>  
+		</div>
+	
+		<div id="line5">  
+		        <img src="decorativeline.jpg"/>  
+		</div>
+	
+		<section id="skills">  
+			<h1>Skills</h1>
+	    		
+			<h2 id="dev">Development</h2> 
+			<img src="arrow.png" id="arrow1"/>   
+			<ul>  
+		        	<li>HTML5/CSS3</li>  
+			        <li>JavaScript & jQuery</li>  
+			        <li>PHP Backend</li>  
+			        <li>SQL Databases</li>  
+			        <li>WordPress</li>  
+	        	</ul>  
+			  
+		        <h2 id="soft">Software</h2>  		        
+			<ul>  
+		        	<li>Adobe Photoshop</li>  
+		        	<li>MS Office 2007-2010</li>  
+		        </ul>  
+		</section> 
+	
+		<section id="education">  
+			<h1>Past Education</h1>
+			<img src="arrow.png" id="arrow3"/>   
+			<ul>  
+				<li>Studying at TMΗΥTΔ,university of Thessaly</li>  
+		       	</ul> 	  
+		</section>
+	
+		<section id="experience">  
+			<h1>Past Experience</h1> 
+			<img src="arrow.png" id="arrow4"/>   
+			<ul>  
+		        	<li>None!</li>  
+		       	</ul> 	  
+		</section>
+	
+		<div id="europass">
+			<img src="europass.jpg">
+			<ul id="firstcolumn">
+					<h1>Europass</h1>
+					
+					<h2>Personal information</h2>
+					<li>First name/Surname</li>
+					<li>Address</li>
+					<li>Mobile</li>
+					<li>E-mail</li>
+					<li>Website</li>
+					<li>Nationality</li>
+					<li>Date of birth</li>
+
+					<h2>Job Description</h2>
+					<h2>Experience</h2>
+					<h2>Education</h2>
+					
+				</ul>
+				<ul id="secondcolumn">
+					<li>Theodosios Kalandaridis</li>
+					<li>Gamveta 3,Volos</li>
+					<li>+30 6945363464</li>
+					<li><a href="mailto:thkaland@uth.gr">thkaland@uth.gr</a></li>
+					<li><a href="http://thkaland.wordpress.com/">thkaland.wordpress.com</a></li>
+					<li>Greek</li>
+					<li>12/2/1989</li>
+
+					<h2>Web Developing</h2>
+					<h3>None!</h3>
+					<li>Graduating Student at TMHΥTΔ</li>
+				</ul>		
+		</div>
+	
+		<p id="footer">
+			designed by
+			<small>Kalandaridis T.</small>
+		</p>
+	
+	</body>
+</html>
